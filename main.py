@@ -1,5 +1,5 @@
 
-"""#HW1
+#HW1
 #1.1
 #2
 greeting = "Hello world!"
@@ -22,5 +22,5 @@ print(f"Результат = {result}")
 print("*"  * 9)
 print("*" + "       " + "*")
 print("*" + "       " + "*")
-print("*"  * 9)"""
+print("*"  * 9)
 

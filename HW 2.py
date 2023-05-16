@@ -1,29 +1,33 @@
+#import sys
 """#2.1
 health_level = int(input("Enter a level of health"))
 if health_level <= 0:
     print(False)
 else:
-    print(True)
-#2.2
+    print(True)"""
+
+
+"""#2.2
 num = int(input("Enter a number"))
 if num % 2 == 0:
     print("Even")
 else:
-    print("Odd")
+    print("Odd")"""
 #2.3
-year = int(input("Enter a year"))
+"""year = int(input("Введите год"))
 if year % 4 == 0 and year % 100 == 0 or year % 400 == 0:
     print("Високосный")
 else:
-    print("Невисокосный")
+    print("Невисокосный")"""
+
 #2.4
 
-text = input("Enter your text")
+"""text = input("Enter your text")
 num = int(input("Enter a number"))
 for i in range(num):
-   print(text)"""
+   print(text)
 
-'''try:
+
     num1 = int(input('Пожалуйста, введите первое число: '))
     num2 = int(input('Пожалуйста, введите второе число: '))
 except ValueError as e:
@@ -41,12 +45,12 @@ if num2 == 0 and operator == '/':
         print("Делить на ноль нельзя!")
 else:
     result = eval(f'{num1} {operator} {num2}')
-    print(f'{num1} {operator} {num2} = {result}')'''
+    print(f'{num1} {operator} {num2} = {result}')"""
 
 
-num1 = int(input("Enter first number"))
-num2 = int(input("Enter second number"))
-operator = input("Enter operator")
+"""num1 = int(input("Enter first number "))
+num2 = int(input("Enter second number "))
+operator = input("Enter operator ")
 if operator == "+":
     print(num1 + num2)
 elif operator == "-":
@@ -56,7 +60,7 @@ elif operator == "*":
 elif operator == "**":
     print(num1 ** num2)
 elif operator == "%":
-     print(num1 % num2)
+    print(num1 % num2)
 if operator not in "+-*/%":
     print("Wrong operator")
     sys.exit()
@@ -68,7 +72,7 @@ if num2 == 0 and operator == "/":
         print("Division is forbidden")
 else:
     result = eval(f'{num1} {operator} {num2}')
-    print(f'{num1} {operator} {num2} = {result}')
+    print(f'{num1} {operator} {num2} = {result}')"""
 
 
 

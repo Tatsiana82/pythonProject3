@@ -1,6 +1,6 @@
 
 
-class Book: # create class шаблон кода, с пом котор созд объекты
+"""class Book: # create class шаблон кода, с пом котор созд объекты
     printed_class = "Printed"
     def __init__(self, name, author, color):  # kонструктор класса
         self.name = name #self это ссылка
@@ -31,4 +31,4 @@ class binding(Book):
 book_3 = binding(Book)("Stihi", "Ykub Kolas")
 print(book3.get_name())
 print(book3.printed_class)
-print(book3.illustrations())
+print(book3.illustrations())"""
